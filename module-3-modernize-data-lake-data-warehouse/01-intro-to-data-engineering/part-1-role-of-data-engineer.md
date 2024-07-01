@@ -8,7 +8,7 @@
 
 ## Why built data pipelines
 
-- Want to get their data intor a place (dashboard/report/ML Model) from where business can make data-driven decisions.
+- Want to get our data into a place (dashboard/report/ML Model) from where business can make data-driven decisions.
 - Data has to be in usable condition for someone to use and make decisions
 
 ## Why Data Lake

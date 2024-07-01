@@ -1,22 +1,22 @@
 # Securing Cloud Storage
 
 - Two methods
-  - IAM
-  - Access Lists
+  - IAM (Identity Access Management)
+  - Access Control Lists
 
 ## IAM
 
 - Set at the bucket level and is applied uniform across all objects within a bucket
 
-## Access Lists
+## Access Control Lists (ACL)
 
-- Can be applied at an individual bucket level or objects level
+- Can be applied at a bucket level or an individual objects level
 - provides more fine-grained access control
 
-## Roles and ACL Lists
+## Roles from IAM
 
-- Bucket Level: Reader, Writer, Owner and Set ACL Policy
-- Project Level: Create or Delete Bucket
+- Bucket Level Roles: Reader, Writer, Owner and Set ACL Policy
+- Project Level Roles: Create or Delete Bucket
 - When creating bucket, we have option to disable ACP List and use IAM Only
 - ACL Lists are enabled by default
 

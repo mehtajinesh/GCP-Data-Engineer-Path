@@ -19,6 +19,10 @@
 3. Actual outcome could be a new insight / ML Model
 4. Supervisor who directs all aspects (workflow orchestration)
 
+## Example Architecture
+
+![Alt text](./Sample-arch.png)
+
 ## GCP Services
 
 ![Alt text](./GCP_Services.png)
@@ -36,4 +40,4 @@
 
 - load the data into a data warehouse only after you have a schema defined and the use case identified
 - take the raw data that exists in a data lake, and transform it, organize it, process it, clean it up and then store it in a data warehouse
-- tends to be structured and semi-structured data that is organized and placed in a format that makes it conducive for querying and analysis
+- tends to be structured and semi-structured data that is organized and placed in a format that makes it conductive for querying and analysis

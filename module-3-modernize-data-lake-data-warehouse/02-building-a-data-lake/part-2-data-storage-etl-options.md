@@ -28,7 +28,7 @@
     **Note: BigQuery serves with a unique feature of performing federated query [Supported : Avro, ORC, Parquet]**
 
 - Extract Load and Transform (ELT)
-  - When the data loaded into the cloud product isn't in the final format we want it in.
+  - When the data loaded into the cloud, cloud product isn't in the final format we want it in.
   - We may want to clean it up, or maybe you want to transform the data in some way. (eg. data needs to be corrected).
   - Extract from our on-premise system, load into the cloud product and then do the transformation.
   - Do this when the amount of transformation that's needed is not very high and the transformation will not greatly reduce the amount of data that we have.

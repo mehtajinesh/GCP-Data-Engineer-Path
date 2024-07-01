@@ -36,6 +36,7 @@
 - So instead of having a separate table for event and pickup and destination, you simply nest them within your main table.
 - Structs are a type of record when looking at a schema, and arrays are of mode repeated.
 - CROSS JOIN to break STRUCT into rows
+- Main benefit: conceptually pre-joined, faster to query.
 
 ## ARRAYS
 

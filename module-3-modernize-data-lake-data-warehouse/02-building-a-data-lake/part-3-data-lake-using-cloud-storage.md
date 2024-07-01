@@ -24,7 +24,7 @@
 - Objects are stored with metadata (Access Control, Compression, Encryption, Lifecycle Management)
 - For example, Cloud Storage knows when an object was stored, and it can be set to automatically delete after a period of time. This feature uses the object metadata to determine when to delete the object.
 
-## Overview of Storage Classes
+## Overview of Cloud Storage Classes
 
 ![Alt text](./Storage-classes.png)
 

@@ -29,4 +29,6 @@
 
 - Serverless product works just an API that we are calling. We pay for using the product, but don't have to manage any servers. BigQuery is serverless. So are Pub/Sub for asynchronous messaging and Dataflow for parallel data processing. We can think of Cloud Storage as being serverless as well. Sure, Cloud Storage uses disks, but we never actually interact with the hardware.
 
--One of the unique things about Google Cloud is that we can build a data processing pipeline of well-designed components, all of which are fully serverless.
+- One of the unique things about Google Cloud is that we can build a data processing pipeline of well-designed components, all of which are fully serverless.
+
+![Alt text](./modern-serverless-arch.png)
