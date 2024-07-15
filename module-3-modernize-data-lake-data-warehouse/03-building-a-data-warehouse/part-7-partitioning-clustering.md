@@ -22,6 +22,16 @@
 - The good practice is to require that queries always include the partition filter, make sure that the partition field is isolated on the left side, because that's the only way BigQuery can quickly discard unnecessary partitions.
 - For this, we need clustering the table with labels
 
+## Use case Example - Date Partition Table
+
+- Scanning through the entire dataset everytime to compare rows against a WHERE condition is wasteful.
+- This is especially true if we only really care about records for a specific period of time like:
+  - All transactions for the last year
+  - All visitor interactions within the last 7 days
+  - All products sold in the last month
+- Instead of scanning the entire dataset and filtering on a date field like we did in the earlier queries, Now set up a date-partitioned table.
+- This allows us to completely ignore scanning records in certain partitions if they are irrelevant to our query
+
 ## Auto-expiring partition
 
 - Auto-expiring partitioned tables are used to comply with data privacy statutes, and can be used to avoid unnecessary storage (which you'll be charged for in a production environment).
